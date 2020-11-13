@@ -1,5 +1,5 @@
 package charis07103_main;
-//FIXXX SC
+
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
