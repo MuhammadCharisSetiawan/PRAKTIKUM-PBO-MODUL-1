@@ -12,6 +12,7 @@ public class charis07153_Parkir {
     static Scanner input = new Scanner(System.in);
     
     public static void main(String[] args) {
+        charis07153_Parkir data = new charis07153_Parkir();
                 System.out.println("Program Sistem Informasi Data Parkir Bandara Juanda");
                 int charis07153_pilihan;
                 do {
@@ -40,7 +41,7 @@ public class charis07153_Parkir {
             }while(charis07153_pilihan!=5);
     }
     
-    static void charis07153_input() {
+    void charis07153_input() {
         System.out.println("Kondisi Kendaraan       = "+charis07153_Kondisi.kondisikendaraan[0]);
         System.out.print("Masukkan Nama Petugas  = ");
         String charis07153_petugas = input.next();
@@ -68,7 +69,7 @@ public class charis07153_Parkir {
         
     }
     
-    static void charis07153_hapus(){
+    void charis07153_hapus(){
         int charis07153_index;
         if(kendaraan.isEmpty()){
         System.out.println("DATA PARKIR KOSONG");
@@ -84,7 +85,7 @@ public class charis07153_Parkir {
         }
         }
     
-    static void charis07153_lihatdata(){
+    void charis07153_lihatdata(){
             if(kendaraan.isEmpty()){
             System.out.println("DATA PARKIR KOSONG");
         }else{
@@ -100,7 +101,7 @@ public class charis07153_Parkir {
     }
     }
     
-    static void charis07153_cetaknota(){
+    void charis07153_cetaknota(){
         int charis07153_x;
             if(kendaraan.isEmpty()){
             System.out.println("DATA PARKIR KOSONG");
