@@ -17,27 +17,27 @@ import java.util.Date;
         this.petugas = petugas;
     }
 
-    public Date getCharis07153_Tanggalparkir() {
+    Date getCharis07153_Tanggalparkir() {
         return Tanggalparkir;
     }
 
-    public String getCharis07153_jammasuk() {
+    String getCharis07153_jammasuk() {
         return jammasuk;
     }
 
-    public String getCharis07153_petugas() {
+    String getCharis07153_petugas() {
         return petugas;
     }
 
-    public String getCharis07153_menitmasuk() {
+    String getCharis07153_menitmasuk() {
         return menitmasuk;
     }
 
-    public int getCharis07153_jamkeluar() {
+    int getCharis07153_jamkeluar() {
         return jamkeluar;
     }
 
-    public int getCharis07153_menitkeluar() {
+    int getCharis07153_menitkeluar() {
         return menitkeluar;
     }
  
